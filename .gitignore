@@ -1,18 +1,30 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,powershell
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,powershell
 
-# Other files and folders
-.settings/
+### PowerShell ###
+# Exclude packaged modules
+*.zip
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Exclude .NET assemblies from source
+*.dll
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,powershell
